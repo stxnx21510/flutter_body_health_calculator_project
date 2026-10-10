@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/views/home_ui.dart';
+import 'package:flutter_body_health_calculator_project/views/home_ui.dart';
 
 class SplashScreenUi extends StatefulWidget {
   const SplashScreenUi({super.key});
@@ -34,6 +34,9 @@ class _SplashScreenUiState extends State<SplashScreenUi> {
       body: Center(
         child: Column(
           children: [
+            SizedBox(
+              height: 200.0,
+            ),
             Image.asset(
               'assets/images/calculate.png',
               width: MediaQuery.of(context).size.height * 0.2,

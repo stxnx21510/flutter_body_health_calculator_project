@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/views/about_ui.dart';
-import 'package:flutter_application_1/views/bmi_ui.dart';
-import 'package:flutter_application_1/views/bmr_ui.dart';
+import 'package:flutter_body_health_calculator_project/views/about_ui.dart';
+import 'package:flutter_body_health_calculator_project/views/bmi_ui.dart';
+import 'package:flutter_body_health_calculator_project/views/bmr_ui.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class HomeUi extends StatefulWidget {
